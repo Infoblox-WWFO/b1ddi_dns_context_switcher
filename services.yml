@@ -1,0 +1,11 @@
+---
+applications:
+  - intranet
+  - mail
+  - www
+
+states:
+  normal: 'Running in normal context'
+  backup: 'Running in BACKUP mode'
+  manual: 'Manual context detected'
+  Not_configured: 'Missing Tags'
